@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ujuzi</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>Here we go!</h1>
+		<p>Vote for your favorite Avenger!</p>
+		<form id="poll-form">
+			<p>
+				<input type="radio" name="avenger" id="captainamerica" value="CaptainAmerica">
+				<label for="captainamerica">Captain America</label>
+			</p>
+			<p>
+				<input type="radio" name="avenger" id="ironman" value="IronMan">
+				<label for="ironman">Iron Man</label>
+			</p>
+			<p>
+				<input type="radio" name="avenger" id="blackpanther" value="BlackPanther">
+				<label for="blackpanther">Black Panther</label>
+			</p>
+			<p>
+				<input type="radio" name="avenger" id="thor" value="Thor">
+				<label for="thor">Thor</label>
+			</p>
+			<p>
+				<input type="radio" name="avenger" id="spiderman" value="SpiderMan">
+				<label for="spiderman">Spider-Man</label>
+			</p>
+			<p>
+				<input type="radio" name="avenger" id="drstrange" value="DrStrange">
+				<label for="drstrange">Dr. Strange</label>
+			</p>
+			<p>
+				<input type="radio" name="avenger" id="blackwidow" value="BlackWidow">
+				<label for="blackwidow">Black Widow</label>
+			</p>
+			<input type="submit" value="Vote" class="btn">
+		</form>
+
+		<br><br>
+
+		<div id="chartContainer" style="height: 300px; width: 100%;">
+			
+		</div>
+			
+	</div>
+
+	
+
+	<!-- JavaScript -->
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
